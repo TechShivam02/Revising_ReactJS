@@ -30,10 +30,10 @@ ReactDOM.render(
     <>
 
 
+
 {/* The Array.map() method creates a new array from the results of calling a function for every element. */}
 
-
-    {/* {Sdata.map(nCard)} */}
+    {/* {Sdata.map(nCard)} */}   {/*  nCard   function Name */}
 
 
 
