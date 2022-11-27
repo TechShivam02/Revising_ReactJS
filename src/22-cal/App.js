@@ -8,6 +8,7 @@ function App(){
       <>
 
           <ul>
+          
             <li>Sum of two num is {add(40,2)} </li>
             <li>Sub of two num is {sub(40,2)} </li>
             <li>Div of two num is {div(40,7)} </li>

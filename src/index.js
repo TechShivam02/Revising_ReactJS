@@ -1,19 +1,26 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDom from 'react-dom';
 
 
-import App from "./HandlingComplex36.js";
+// import App from "./Practise_Class-17-11-22/App.jsx"
 
 
-ReactDOM.render(
-  
+// import App from "./Practise_Class-18-11-22/App.jsx"  // 18
 
-   <>  
+// import App from "./Practise_Class-18UseEffect/App.jsx"  // 18
 
-    <App/>
 
-  </>
 
-, document.getElementById("root")
+import App from "./StFand/App"
 
-)
+                                    
+ReactDom.render( 
+
+        <App/>
+    ,
+    
+    document.getElementById("root")
+);
+
+
+export default App;

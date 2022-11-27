@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 
-
 const App = () => {
 
         
@@ -11,14 +10,12 @@ const App = () => {
             lname : "",
      });
 
-
      
     const inputEvent = (event) => {        
           
-        
-            console.log(event.target.value);
-
-            console.log(event.target.name);      // that descried in input  name=""  placeholder=""
+    
+            console.log(event.target.value);    
+            console.log(event.target.name);      // that described in input  name=""  placeholder=""
             
                 //  console.log(event.target.placeholder);   // that descried in input  name=""  placeholder=""
 
@@ -27,8 +24,7 @@ const App = () => {
                     const name   = event.target.name;
                     
 
-                    
-
+        
             setfullName(    (event) => {
 
                                     // console.log(event);       //    event.previous.fname  gives fname      event.previous.lname   gives lname
@@ -88,24 +84,24 @@ const App = () => {
 
             <form   onSubmit={onsubmittts}>       
 
-
-
                 <h1>  Hello {fullName.fname}  {fullName.lname}  </h1>        
                 
-    
 
 
-
-                <input type="text"  placeholder="Enter Your First Name "   onChange={inputEvent}   
-                // value={fullName.fname}
-                name="firstname" 
+                <input type="text"  
+                
+                    placeholder="Enter Your First Name " 
+                    onChange={inputEvent}   
+                    name="firstname" 
                 />
 
                 <br/>
 
 
-                <input type="text"  placeholder="Enter Your Last Name "   onChange={inputEvent} 
-                // value={fullName.lname}
+                <input type="text"  
+                
+                placeholder="Enter Your Last Name " 
+                onChange={inputEvent} 
                 name="lastname"
                 />
 

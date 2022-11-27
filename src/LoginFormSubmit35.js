@@ -21,7 +21,6 @@ const App = () => {
 
 
     const InputFunc = (event) => {
-    
         setText(event.target.value);
 
     }

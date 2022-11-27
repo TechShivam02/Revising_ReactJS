@@ -11,10 +11,10 @@ import * as obj from "./math";
 
 
 // export default would be one , can be imported by any name smalll Or large Caps No Matters
-// the named wale export , will be exported by {} seperated by comma  , and only be imaported using the same name  , by {} sep by comma.
+// the named wale export , will be exported by {} seperated by comma  , and only be imported using the same name  , by {} sep by comma.
 
 
-// if want to imoprt default , and named in one line , use import * as obj .... , obj.default , obj.nameFunc() , obj.var ;    
+// if want to import default , and named in one line , use import * as obj .... , obj.default , obj.nameFunc() , obj.var ;    
 
 
 
